@@ -1,0 +1,38 @@
+{
+  "title": "pauli_contextuality: code, certificates and Lean 4 proofs for \"Almost half wrong: the contextuality degree of multi-qubit Pauli configurations\"",
+  "upload_type": "software",
+  "description": "<p>Paper (PDF in <code>paper/</code>), independent Python certificate checker, search code and a Lean 4 + Mathlib formalisation (about 1,100 theorems) for the paper <em>Almost half wrong: the contextuality degree of multi-qubit Pauli configurations</em>.</p><p>The contextuality degree of a set of multi-qubit Pauli observables is the least number of contexts (commuting triples with product $\\pm I$) that a noncontextual value assignment must violate. We show that for any configuration that contains all of its contexts, the number of violated contexts equals half their number minus $\\mathrm{tr}(M_g^3)/(12\\cdot 2^N)$, where $M_g$ is a signed sum of the observables. One trace inequality turns this into a lower bound, and random states into an upper bound. For the $N$-qubit symplectic polar space the contextuality ratio therefore tends to $1/2$, with $1/2-\\rho_N=\\Theta(2^{-N/2})$: every noncontextual model gets almost half of the contexts wrong. The bound is exact precisely when a pure state has Pauli expectations of constant modulus on the configuration and zero off it. On three qubits these are the Hoggar SIC fiducials, so optimal assignments are sign patterns of maximally magic states; we also give a short proof that the four-qubit hyperbolic quadric has degree 315 and an exactly solved five-qubit configuration of degree 480. As linear-system nonlocal games, the symplectic family has quantum value 1 with $N$ EPR pairs and classical value tending to $5/6$, the minimum possible, with a matching dimension-gap law. We further prove NP-hardness of the degree for induced configurations, show that hard instances are exponentially sparse while dense ones are easy, develop transfer and rigidity for symmetric geometries, determine the degree of all subspace sections, and prove $\\deg Q^-(7,2)\\ge 216$ and new lower bounds for every $N\\ge 4$. Almost all results are formalised in Lean 4 with Mathlib (about 1,100 theorems), with every finite computation isolated and audited.</p>",
+  "creators": [
+    {
+      "name": "Wordson",
+      "affiliation": "Department of Mathematics and Statistics, IISER Kolkata",
+      "orcid": "0009-0001-7340-5530"
+    },
+    {
+      "name": "A, Savith",
+      "affiliation": "IISER Kolkata"
+    },
+    {
+      "name": "Mahibha, C. Jerin",
+      "affiliation": "Meenakshi Sundararajan Engineering College, Chennai"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "contextuality",
+    "Kochen-Specker",
+    "Pauli group",
+    "symplectic polar space",
+    "nonlocal games",
+    "magic states",
+    "Lean 4",
+    "formal verification"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/WordsonRobert/pauli_contextuality",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
