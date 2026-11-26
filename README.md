@@ -1,5 +1,7 @@
 # pauli_contextuality
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24567331.svg)](https://doi.org/10.5281/zenodo.24567331)
+
 **How many contexts must a noncontextual model get wrong?**
 Code, certificates and Lean 4 proofs for the paper
 
@@ -133,7 +135,8 @@ complexity-class statements (the reductions themselves *are* formalised).
 
 ## Citing
 
-Please cite the paper (see [`CITATION.cff`](CITATION.cff)):
+Please cite the paper (see [`CITATION.cff`](CITATION.cff)). The code and proofs are archived on Zenodo:
+[doi:10.5281/zenodo.24567331](https://doi.org/10.5281/zenodo.24567331).
 
 ```bibtex
 @article{pauli_contextuality_2026,
@@ -141,7 +144,8 @@ Please cite the paper (see [`CITATION.cff`](CITATION.cff)):
   author  = {Wordson and A, Savith and Mahibha, C. Jerin},
   year    = {2026},
   note    = {arXiv:XXXX.XXXXX},
-  url     = {https://github.com/WordsonRobert/pauli_contextuality}
+  url     = {https://github.com/WordsonRobert/pauli_contextuality},
+  doi     = {10.5281/zenodo.24567331}
 }
 ```
 
