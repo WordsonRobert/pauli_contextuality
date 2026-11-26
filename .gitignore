@@ -1,0 +1,23 @@
+# Lean / Lake build output
+lean/.lake/
+lean/build/
+*.olean
+*.ilean
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# LaTeX build files
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+
+# generated search inputs / binaries
+code/inst_*.txt
+code/tabu
+code/gray
+
+.DS_Store

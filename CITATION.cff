@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code or the formal proofs, please cite the paper."
+title: "Almost half wrong: the contextuality degree of multi-qubit Pauli configurations"
+authors:
+  - name: "Wordson"
+    affiliation: "Department of Mathematics and Statistics, IISER Kolkata"
+    orcid: "https://orcid.org/0009-0001-7340-5530"
+  - name: "Savith A"
+    affiliation: "IISER Kolkata"
+  - name: "C. Jerin Mahibha"
+    affiliation: "Meenakshi Sundararajan Engineering College, Chennai"
+license: MIT
+repository-code: "https://github.com/PLACEHOLDER/pauli_contextuality"
+date-released: 2026-11-26

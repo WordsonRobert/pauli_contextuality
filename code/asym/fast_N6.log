@@ -1,0 +1,9 @@
+N=6 trial 0: lambda_max 439.1894 violations 590478.00
+N=6 trial 2: lambda_max 439.5912 violations 589979.00
+N=6 trial 15: lambda_max 441.2134 violations 588702.00
+N=6 trial 16: lambda_max 453.2832 violations 579846.00
+N=6 trial 17: lambda_max 467.3956 violations 571064.00
+N=6 trial 73: lambda_max 466.3977 violations 570479.00
+N=6 trial 76: lambda_max 468.1578 violations 570119.00
+N=6 trial 85: lambda_max 470.5510 violations 567487.00
+spectrum {-148.3259: 1, -56.2548: 3, -53.4964: 1, -14.4291: 1, -11.0: 8, -3.0: 45, 34.2548: 3, 34.7003: 1, 470.551: 1}
