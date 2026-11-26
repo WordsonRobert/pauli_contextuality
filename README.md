@@ -55,6 +55,11 @@ blueprint/      working notes: every result with numbered proof steps (one file 
 
 ## Check the results yourself
 
+```bash
+git clone https://github.com/WordsonRobert/pauli_contextuality.git
+cd pauli_contextuality
+```
+
 ### 1. The quick check (about a minute, Python only)
 
 ```bash
@@ -135,7 +140,8 @@ Please cite the paper (see [`CITATION.cff`](CITATION.cff)):
   title   = {Almost half wrong: the contextuality degree of multi-qubit {Pauli} configurations},
   author  = {Wordson and A, Savith and Mahibha, C. Jerin},
   year    = {2026},
-  note    = {arXiv:XXXX.XXXXX}
+  note    = {arXiv:XXXX.XXXXX},
+  url     = {https://github.com/WordsonRobert/pauli_contextuality}
 }
 ```
 
